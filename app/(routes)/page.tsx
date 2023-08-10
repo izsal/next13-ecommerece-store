@@ -4,6 +4,8 @@ import ProductList from "@/components/product-list";
 import Container from "@/components/ui/container";
 import Billboard from "@/components/ui/billboard";
 
+export const revalidate = 0;
+
 const HomePage = async () => {
   const products = await getProducts({ isFeatured: true });
   const billboard = await getBillboard("f7f6498c-1915-47a2-aee1-2581c490f556");
