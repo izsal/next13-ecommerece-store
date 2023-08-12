@@ -6,11 +6,7 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
-      '80%:': {
-        opacity: 0.5,
-       },
-    },
+    extend: {},
   },
   plugins: [],
 }
